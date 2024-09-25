@@ -4,13 +4,7 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import no.hvl.dat152.action.AddBookFormAction;
-import no.hvl.dat152.action.AddBookAction;
-import no.hvl.dat152.action.ControllerAction;
-import no.hvl.dat152.action.UpdateBookAction;
-import no.hvl.dat152.action.UpdateBookFormAction;
-import no.hvl.dat152.action.ViewBookAction;
-import no.hvl.dat152.action.ViewBooksAction;
+import no.hvl.dat152.action.*;
 import no.hvl.dat152.dao.AuthorDAO;
 import no.hvl.dat152.dao.BookDAO;
 import no.hvl.dat152.model.Author;
@@ -51,8 +45,8 @@ public class FrontController extends HttpServlet {
 		actions.put("viewbooks", new ViewBooksAction());
 		
 		// new features
-//		actions.put("addauthorform", new AddAuthorFormAction());	//TODO
-//		actions.put("addauthor", new AddAuthorAction());			//TODO
+		actions.put("addauthorform", new AddAuthorFormAction());
+		actions.put("addauthor", new AddAuthorAction());
 		actions.put("deletebookconfirm", new ViewBookAction());
 //		actions.put("deletebook", new DeleteBookAction());			//TODO
 	}

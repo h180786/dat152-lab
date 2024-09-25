@@ -17,7 +17,7 @@
 				<tr>
 					<td>ISBN:</td>
 					<td>${isbn} <input type="hidden" name="isbn" value="${isbn}" /></td>
-					
+
 				</tr>
 				<tr>
 					<td>Title:</td>
@@ -38,7 +38,7 @@
 			<div>
 				<input type="submit" value="Submit" name="submit">
 			</div>
-		</form>		
+		</form>
 	</div>
 </body>
 </html>
