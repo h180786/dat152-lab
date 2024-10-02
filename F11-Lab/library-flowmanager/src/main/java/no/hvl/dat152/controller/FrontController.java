@@ -48,7 +48,7 @@ public class FrontController extends HttpServlet {
 		actions.put("addauthorform", new AddAuthorFormAction());
 		actions.put("addauthor", new AddAuthorAction());
 		actions.put("deletebookconfirm", new ViewBookAction());
-//		actions.put("deletebook", new DeleteBookAction());			//TODO
+		actions.put("deletebook", new DeleteBookAction());
 	}
 	
 	/**

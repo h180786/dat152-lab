@@ -28,9 +28,8 @@ public class FlowManager {
 		// new features
 		pages.put("addauthorform", "/addauthor.jsp");
 		pages.put("addauthor", "/viewbooks.jsp");
-//		pages.put("deletebookconfirm", "");			//TODO
+		pages.put("deletebookconfirm", "/deletebook.jsp");
 		pages.put("deletebook", "/viewbooks.jsp");
-		
 	}
 	
 	public String getPage(String cmd) {

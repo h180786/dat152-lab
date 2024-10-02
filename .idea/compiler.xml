@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="library" />
+        <module name="library (6)" />
         <module name="library (5)" />
         <module name="library (4)" />
         <module name="library (3)" />
