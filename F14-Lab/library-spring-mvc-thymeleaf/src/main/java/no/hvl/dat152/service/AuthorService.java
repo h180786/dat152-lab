@@ -5,6 +5,7 @@ package no.hvl.dat152.service;
 
 import java.util.List;
 
+import no.hvl.dat152.model.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,9 +20,12 @@ public class AuthorService {
 
 	@Autowired
 	private AuthorRepository authorRepository;
-	
-	
-	// TODO : saveAuthor(Author author)
+
+	public Author saveAuthor(Author author) {
+
+		return authorRepository.save(author);
+
+	}
 
 	
 	public List<Author> findAll(){

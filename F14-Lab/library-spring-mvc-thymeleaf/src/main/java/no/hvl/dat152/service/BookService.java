@@ -81,7 +81,9 @@ public class BookService {
 	 */
 	public void deleteBookById(long id) throws BookNotFoundException {
 		
-		// TODO
+		Book book = findBookById(id);
+
+		bookRepository.delete(book);
 
 	}
 	
