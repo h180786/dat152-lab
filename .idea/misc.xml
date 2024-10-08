@@ -11,10 +11,11 @@
         <option value="$PROJECT_DIR$/F11-Lab/library-flowmanager/pom.xml" />
         <option value="$PROJECT_DIR$/F11-Lab/library-flowmanager-auth/pom.xml" />
         <option value="$PROJECT_DIR$/F14-Lab/library-spring-mvc-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/F17-Lab/library-spring-ws-rest/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="JavaSE-21" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="JavaSE-21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
